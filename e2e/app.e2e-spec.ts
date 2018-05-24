@@ -1,10 +1,10 @@
-import { DatProjetPage } from './app.po';
+import { Entrainement2Angular2Page } from './app.po';
 
-describe('dat-projet App', function() {
-  let page: DatProjetPage;
+describe('entrainement2-angular2 App', function() {
+  let page: Entrainement2Angular2Page;
 
   beforeEach(() => {
-    page = new DatProjetPage();
+    page = new Entrainement2Angular2Page();
   });
 
   it('should display message saying app works', () => {

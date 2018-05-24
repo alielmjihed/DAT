@@ -1,2 +1,23 @@
-/* You can add global styles to this file, and also import other style files
-git test */
+/* You can add global styles to this file, and also import other style files */
+div.link-list {
+        width:10.2em;
+        position:absolute;
+        top:0;
+        font-size:80%;
+        padding-left:1%;
+        padding-right:1%;
+        margin-left:0;
+        margin-right:0;
+}
+#main {
+        margin-left:15.2em;
+        margin-right:15.2em;
+        padding-left:2em;
+        padding-right:2em;
+}
+#list1 {
+        left:0;
+}
+#list2 {
+        right:0;
+}
