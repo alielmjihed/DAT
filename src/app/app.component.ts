@@ -1,4 +1,3 @@
-import { HttpService } from './http.service';
 import { Component, OnInit } from '@angular/core';
 import {Response} from '@angular/http';
 
@@ -7,10 +6,10 @@ import {Response} from '@angular/http';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent implements OnInit {
+export class AppComponent  {
   data:any;
   title = 'app works!';
-  constructor(private httpservice :HttpService){}
+ /* constructor(private httpservice :HttpService){}
 
   ngOnInit(){
     this.httpservice.getData().
@@ -23,5 +22,7 @@ export class AppComponent implements OnInit {
   },
   error=>console.log(error)
   );
-  }
+  }*/
+
+
 }
